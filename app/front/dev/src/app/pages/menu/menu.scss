@@ -1,0 +1,42 @@
+#v-menu {
+  display: flex;
+}
+
+.menu-group {
+  background-color: black;
+  padding: 30px;
+
+  .title {
+    font-size: 20pt;
+  }
+
+  .content {
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    width: 700px;
+
+    .menu {
+      display: flex;
+      align-items: center;
+      flex-flow: row nowrap;
+
+      .name {
+        width: 300px;
+      }
+
+      .price {
+        width: 40px;
+      }
+
+      .line {
+        display: flex;
+        box-sizing: border-box;
+        flex: 0 0 230px;
+        border-top: 1px dotted #FFf;
+        height: 0px;
+        margin: 0 10px 0 10px;
+        height: 3px;
+      }
+    }
+  }
+}
